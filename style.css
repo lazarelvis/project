@@ -1,5 +1,36 @@
-h1{
-    color: blue;
-    font-style: italic;
-    font-weight: 800;
+*{
+    margin: 0 auto;
 }
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    /*font family*/
+}
+
+.container{
+    max-width:800px;
+    margin: auto;
+}
+
+.navbar ul{
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+
+}
+.navbar li a{
+    text-align: center;
+    text-decoration: none;
+ }
+
+ .navbar i{
+    position: relative;
+    top: -3px;
+    font-size: 10px;
+    padding-right: 6px;
+ } 
