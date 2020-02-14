@@ -18,13 +18,15 @@ body{
 
 .navbar ul{
     text-align: center;
-    padding: 20px 0px;
+    padding: 10px 0px;
+
 }
 
 .navbar li {
     display: inline-block;
     text-align: center;
-    padding: 10px;
+    padding: 30px;
+ 
 
 }
 .navbar li a{
@@ -32,4 +34,9 @@ body{
     text-decoration: none;
     color: white;
 
+ }
+
+ .navbar ul img{
+     float: left;
+     padding-left: 30px ;
  }
