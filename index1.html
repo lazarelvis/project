@@ -15,18 +15,74 @@
       <ul>
         <img src="img/logo.png">
         <li><a href="#ACASA" class="link">ACASA</a></li>
-        <li><a href="#PORTOFOLIU" class="link">PORTOFOLIU</a></li>
+        <li><a href="#POROFIL" class="link">PORTOFOLIU</a></li>
         <li><a href="#DESPRE" class="link">DESPRE</a></li>
         <li><a href="#CONTACT" class="link">CONTACT</a></li>
       </ul>
   </div>
 
+<<<<<<< HEAD
 <section id="slider">
   <input type="radio" name="slider" id="s1" checked>
   <input type="radio" name="slider" id="s2">
   <input type="radio" name="slider" id="s3">
   <input type="radio" name="slider" id="s4">
   <input type="radio" name="slider" id="s5">
+=======
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="img/1.png" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="img/2.png" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="img/3.png" style="width:100%">
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+
+  
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script>
+    var slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1} 
+      slides[slideIndex-1].style.display = "block"; 
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+
+    // $('.navbar').on('click','li',function(){
+    //   $('.navbar li.link').removeClass('link');
+    //   $(this).addClass('link');
+    // });
+  </script>
+  <head>
+<!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">-->
+<meta name="viewport" content="width=1000">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	
+<title>Responsive jQuery Carousel - Multimedia Plugin Collection - Perspective - Full Width</title>
+<meta name="description" content="Responsive jQuery Carousel - Multimedia Plugin Collection - perspective - Full Width" />
+<meta name="keywords" content="carousel, jQuery, multimedia, image, video, Responsive, fixed dimensions, full width" />
+<meta name="author" content="Lambert Group" />
+<meta name="robots" content="FOLLOW" />
+>>>>>>> 6e3b0b95341ac8afc5b0f801108e84d350385d88
 
   <img src="img/3.png" for="s1" id="slide1"/>
   <img src="img/2.png" for="s2" id="slide2"/>
@@ -36,7 +92,84 @@
 </section>
 
 
+<<<<<<< HEAD
+=======
+
+
+<div style="padding:0px 0px 60px 0px; center top no-repeat;">  
+		<!-- BANNER START -->    
+        	<script>
+		jQuery(function() {
+
+			jQuery('#multimedia_perspective_carousel_black').multimedia_perspective_carousel({
+				skin: 'black',
+				width100Proc:true,
+				responsive:true,
+				width: 1920,
+				height: 800,
+				imageWidth:900,
+				imageHeight:600,			
+				autoPlay: 7,
+				autoHideBottomNav:false,
+				showElementTitle:true,
+				titleColor:'#FFFFFF',
+				elementsHorizontalSpacing:158,
+				verticalAdjustment:80,
+				numberOfVisibleItems:7,
+				nextPrevMarginTop:23,
+				playMovieMarginTop:0,
+				bottomNavMarginBottom:-5,
+				absUrl:'perspective_skins/'
+			});
+			jQuery(document).ready(function(){
+				$("a[rel^='prettyPhoto']").prettyPhoto({
+					default_width: jQuery(window).width()/2,
+					default_height: jQuery(window).width()/2*9/16,
+					social_tools:false,
+					callback: function(){
+						$.multimedia_perspective_carousel.continueAutoplay();
+					}
+				});
+			});
+			
+		});
+		
+
+	</script>
+
+            <div id="multimedia_perspective_carousel_black">
+           		<div class="myloader"></div>
+                <!-- CONTENT -->
+                <ul class="multimedia_perspective_carousel_list">
+                
+               		  <li>
+					            <img src="img/3.png" />
+				          	</li>
+					
+                    <li>
+                      <img src="img/2.png" />
+                    </li>
+					
+                    <li>
+                      <img src="img/1.png" />
+                    </li>
+                  	
+					          <li>
+                        <img src="img/2.png" />
+					          </li>
+                    <li>
+                      <img src="img/3.png" />
+                    </li>
+                   
+                </ul>    
+                                       
+                           
+           </div>        <!--END BANNER-->
+</div>
+  
+>>>>>>> 6e3b0b95341ac8afc5b0f801108e84d350385d88
   
 
 </body>
 </html>
+
