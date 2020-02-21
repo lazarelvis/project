@@ -85,117 +85,100 @@ a{
   background: turquoise;
 }
 
-
-
-
-#slider {
-  position: relative;
-  width: 50%;
-  height: 30vw;
-  margin: 80px auto;
-  font-family: 'Helvetica Neue', sans-serif;
-  perspective: 1400px;
-  transform-style: preserve-3d;
-}
-
-input[type=radio] {
-  position: relative;
-  top: 108%;
-  left: 50%;
-  width: 18px;
-  height: 18px;
-  margin: 0 15px 0 0;
-  opacity: 0.4;
-  transform: translateX(-83px);
-  cursor: pointer;
-}
-
-
-input[type=radio]:nth-child(5) {
-  margin-right: 0px;
-}
-
-input[type=radio]:checked {
-  opacity: 1;
-}
-
-
-
-
-#slider img {
-  position: absolute;
+html, body, main {
   width: 100%;
   height: 100%;
-  left: 0;
-  top: 0;
-  color: white;
-  font-size: 70px;
-  font-weight: bold;
-  border-radius: 5px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: transform 400ms ease;
+  margin: 0;
+  padding: 0;
 }
 
-#slide1 {
-  background: tomato;
+#carousel {
+  position: relative;
+  height: 750px;
+  top: 50%;
+  transform: translateY(-50%);
+  overflow: hidden;
+}
+#carousel div {
+  position: absolute;
+  transition: transform 1s, left 1s, opacity 1s, z-index 0s;
+  opacity: 1;
+}
+#carousel div img {
+  width: 900px;
+  transition: width 1s;
+}
+#carousel div.hideLeft {
+  left: 0%;
+  opacity: 0;
+  transform: translateY(50%) translateX(-50%);
+}
+#carousel div.hideLeft img {
+  width: 200px;
+}
+#carousel div.hideRight {
+  left: 100%;
+  opacity: 0;
+  transform: translateY(50%) translateX(-50%);
+}
+#carousel div.hideRight img {
+  width: 200px;
+}
+#carousel div.prev {
+  z-index: 5;
+  left: 30%;
+  transform: translateY(120px) translateX(-50%);
+  filter: blur(1.5px);
+}
+#carousel div.prev img {
+  width: 500px;
+}
+#carousel div.prevLeftSecond {
+  z-index: 4;
+  left: 15%;
+  transform: translateY(130%) translateX(-50%);
+  opacity: 0.6;
+  filter: blur(2px);
+}
+#carousel div.prevLeftSecond img {
+  width: 250px;
+}
+#carousel div.selected {
+  z-index: 10;
+  left: 50%;
+  transform: translateY(0px) translateX(-50%);
+}
+#carousel div.next {
+  z-index: 5;
+  left: 70%;
+  transform: translateY(120px) translateX(-50%);
+  filter: blur(1.5px);
+}
+#carousel div.next img {
+  width: 500px;
+}
+#carousel div.nextRightSecond {
+  z-index: 4;
+  left: 85%;
+  transform: translateY(130%) translateX(-50%);
+  opacity: 0.7;
+  filter: blur(2px);
+}
+#carousel div.nextRightSecond img {
+  width: 250px;
 }
 
-#slide2 {
-  background: yellowgreen;
+.buttons {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10px;
 }
 
-#slide3 {
-  background: dodgerblue;
+.slogan{
+  text-align: center;
 }
-
-#slide4 {
-  background: slateblue;
+.slogan h1{
+  padding-top: 70px;
+  margin-bottom: 13px;
 }
-
-#slide5 {
-  background: violet;
-}
-
-
-/* Slider Functionality */
-
-/* Active Slide */
-#s1:checked ~ #slide1, #s2:checked ~ #slide2, #s3:checked ~ #slide3, #s4:checked ~ #slide4, #s5:checked ~ #slide5 {
-  box-shadow: 0 13px 26px rgba(0,0,0, 0.3), 0 12px 6px rgba(0,0,0, 0.2);
-  transform: translate3d(0%, 0, 0px);
-}
-
-/* Next Slide */
-#s1:checked ~ #slide2, #s2:checked ~ #slide3, #s3:checked ~ #slide4, #s4:checked ~ #slide5, #s5:checked ~ #slide1 {
-  box-shadow: 0 6px 10px rgba(0,0,0, 0.3), 0 2px 2px rgba(0,0,0, 0.2);
-  transform: translate3d(15%, 0, -100px);
-}
-
-
-/* Next to Next Slide */
-#s1:checked ~ #slide3, #s2:checked ~ #slide4, #s3:checked ~ #slide5, #s4:checked ~ #slide1, #s5:checked ~ #slide2 {
-  box-shadow: 0 1px 4px rgba(0,0,0, 0.4);
-  transform: translate3d(30%, 0, -250px);
-}
-
-/* Previous to Previous Slide */
-#s1:checked ~ #slide4, #s2:checked ~ #slide5, #s3:checked ~ #slide1, #s4:checked ~ #slide2, #s5:checked ~ #slide3 {
-  box-shadow: 0 1px 4px rgba(0,0,0, 0.4);
-  transform: translate3d(-30%, 0, -250px);
-}
-
-/* Previous Slide */
-#s1:checked ~ #slide5, #s2:checked ~ #slide1, #s3:checked ~ #slide2, #s4:checked ~ #slide3, #s5:checked ~ #slide4 {
-  box-shadow: 0 6px 10px rgba(0,0,0, 0.3), 0 2px 2px rgba(0,0,0, 0.2);
-  transform: translate3d(-15%, 0, -100px);
-}
-
-
-
-
-
-
-  
