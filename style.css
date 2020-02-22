@@ -198,3 +198,54 @@ html, body, main {
       height: 350px;
   }
 }
+
+/* animatie omulet */
+#poz{
+  position: absolute;
+  left: 300px;
+  top: 700px;
+}
+.shape{
+  position: relative;
+	display: inline-block;
+	padding: 30px;
+}
+#head{
+	margin-left: 25px;
+	width: 50px;
+	height:50px;
+	background: blue;
+	border-radius: 50%;
+}
+
+#body{
+	padding-top: 50px;
+	width:90px;
+	height: 100px;
+	background: red;
+	border-radius: 20px;
+}
+#arm{
+	position: absolute;
+	top: 90px;
+	width: 83px;
+	margin-left: 70px;
+	height: 20px;
+	background: blue;
+	border-radius: 10px;
+	transform: rotate(-20deg);
+
+}
+#forearm{
+	position: absolute;
+	top: 95px;
+	margin-left: 130px;
+	width: 20px;
+	height: 70px;
+	background: blue;
+	border-radius: 10px;
+	transform-origin: 50% 0%;
+  	transform: rotate(200deg);
+}
+
+
