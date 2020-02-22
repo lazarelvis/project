@@ -182,3 +182,14 @@ html, body, main {
   padding-top: 70px;
   margin-bottom: 13px;
 }
+
+@media only screen and (max-height: 768px) {
+#carousel{
+  height: 650px;
+}
+  }
+  @media only screen and (max-height: 650px) {
+    #carousel{
+      height: 550px;
+    }
+      }
