@@ -244,7 +244,8 @@ html, body, main {
 	height: 70px;
 	background: blue;
 	border-radius: 10px;
-	transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  
   	transform: rotate(200deg);
 }
 
@@ -324,4 +325,12 @@ html, body, main {
 	height: 70px;
 	background: #1F2732;
 	border-radius: 15px;
+}
+
+
+.buttons {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10px;
 }
