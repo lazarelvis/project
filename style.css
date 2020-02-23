@@ -249,3 +249,79 @@ html, body, main {
 }
 
 
+/* animatie nor */
+.nori{
+  position: absolute;
+  top: 1px;
+  right: 450px;
+  color: white;
+}
+#nor1{
+
+  position: absolute;
+  left: 500px;
+ 
+	display: inline-block;
+	width: 150px;
+	height: 70px;
+	background: #1F2732;
+	border-radius: 15px;
+}
+#nor2{
+
+  position: absolute;
+  left: 500px;
+	display: inline-block;
+	width: 150px;
+	height: 70px;
+	background: #1F2732;
+	border-radius: 15px;
+}
+#nor3{
+
+  position: absolute;
+  left: 500px;
+	display: inline-block;
+	width: 150px;
+	height: 70px;
+	background: #1F2732;
+	border-radius: 15px;
+}
+#nor4{
+
+  position: absolute;
+  left: 500px;
+	display: inline-block;
+	width: 150px;
+	height: 70px;
+	background: #1F2732;
+	border-radius: 15px;
+}
+#nor5{
+
+  position: absolute;
+  left: 500px;
+	display: inline-block;
+	width: 150px;
+	height: 70px;
+	background: #1F2732;
+	border-radius: 15px;
+}
+#nor6{
+
+	position: absolute;
+	display: inline-block;
+	width: 150px;
+	height: 70px;
+	background: #1F2732;
+	border-radius: 15px;
+}
+#nor7{
+
+	position: absolute;
+	display: inline-block;
+	width: 150px;
+	height: 70px;
+	background: #1F2732;
+	border-radius: 15px;
+}
