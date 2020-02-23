@@ -245,7 +245,7 @@ html, body, main {
 	background: blue;
 	border-radius: 10px;
   transform-origin: 50% 0%;
-  
+
   	transform: rotate(200deg);
 }
 

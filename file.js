@@ -24,10 +24,12 @@ function moveToSelected(element) {
     $(nextSecond).nextAll().removeClass().addClass('hideRight');
     $(prevSecond).prevAll().removeClass().addClass('hideLeft');
   
+    document.querySelector('.next').onclick = tl.play;
+    document.querySelector('.prev').onclick = tl1.play;
   }
-  
+
   // Eventos teclado
-  $(document).keydown(function(e) {
+  $(document).keydown(function(e){
       switch(e.which) {
           case 37: // left
           moveToSelected('prev');

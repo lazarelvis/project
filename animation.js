@@ -30,21 +30,19 @@ var tl1 = anime.timeline({
 
 });
 
+
 // Add children
 tl
 .add({
   targets: '#forearm',
   rotate: [-170, -130],
 
-  loop: true
+  
 });
 tl1
 .add({
   targets: '#forearm',
   rotate: [-170, -220],
 
-  loop: true
+  
 });
-
- document.querySelector('#next').onclick = tl.play;
- document.querySelector('#prev').onclick = tl1.play;
