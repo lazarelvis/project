@@ -2,6 +2,18 @@
     src:url(font/CircularStd-Book.otf);
     font-family: CircularStd;
 }
+@font-face{
+  src:url(font/PRISTINA.TTF);
+  font-family: pristina;
+}
+@font-face{
+  src:url(font/RAVIE.TTF);
+  font-family: ravie;
+}
+@font-face{
+  src:url(font/Rockwell-Regular-Font.ttf);
+  font-family: rockwell;
+}
 *{
     margin: 0 auto;
 }
@@ -10,6 +22,7 @@ body{
     padding: 0;
     font-size: 20px;
     font-family: CircularStd;
+    color: #0A2243;
 }
 
 .navbar {
@@ -19,24 +32,18 @@ body{
 .navbar ul{
     text-align: center;
     padding: 10px 0px;
-
 }
 
 .navbar li {
     display: inline-block;
     text-align: center;
     padding: 30px;
- 
-
 }
 .navbar li a{
     text-align: center;
     text-decoration: none;
     color: white;
-
-    
  }
-
 
  .navbar ul img{
      float: left;
@@ -45,9 +52,7 @@ body{
 
  .navbar li a:hover{
  color:turquoise;
-
  }
-
 
 /* hover navbar */
 li{
@@ -174,6 +179,11 @@ html, body, main {
 .slogan h1{
   padding-top: 70px;
   margin-bottom: 13px;
+  font-weight: normal;
+}
+.slogan h3{
+font-weight: normal;
+font-size: 25px;
 }
 
 @media only screen and (max-height: 876px) {
@@ -192,9 +202,7 @@ html, body, main {
   }
 }
 
-
-
-
+/* sageti slider */
 #prev, #next {
   cursor: pointer;
   position: absolute;
@@ -216,4 +224,48 @@ html, body, main {
 #next {
   right: 0;
   border-radius: 3px 0 0 3px;
+}
+
+/* font prima pagina */
+#pristina{
+  font-family: pristina;
+  font-size: 65px;
+}
+#ravie{
+  font-family: ravie;
+  font-size: 55px;
+  color: turquoise;
+  text-shadow: 0px 4px black;
+}
+#rockwell{
+  font-family: rockwell;
+  font-size: 55px;
+}
+
+/* scop section */
+.scope{
+  text-align: center;
+  font-size: 25px;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+.scope h1{
+  padding-bottom: 20px;
+}
+.scope h3{
+  font-weight: normal;
+  font-size: 25px;
+
+}
+
+.rope,.rope1{
+  position: absolute;
+  right: 200px;
+  height: 100px;
+  width: 100px;
+}
+
+.cutTheRope{
+  position: relative;
+  padding-bottom: 15px ;
 }

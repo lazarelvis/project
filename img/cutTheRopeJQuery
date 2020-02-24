@@ -1,0 +1,5 @@
+$('.example-class').on('mouseenter', () => {
+  $('.example-class-one').show();
+}).on('mouseleave', () => {
+  $('.example-class-one').hide();
+});
