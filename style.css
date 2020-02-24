@@ -258,7 +258,19 @@ font-size: 25px;
 
 }
 
-.rope,.rope1{
+.rope{
+  position: absolute;
+  right: 200px;
+  height: 100px;
+  width: 100px;
+}
+.rope1{
+  position: absolute;
+  right: 200px;
+  height: 100px;
+  width: 100px;
+}
+.rope2{
   position: absolute;
   right: 200px;
   height: 100px;
