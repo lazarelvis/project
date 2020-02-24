@@ -25,6 +25,7 @@ function moveToSelected(element) {
     $(prevSecond).prevAll().removeClass().addClass('hideLeft');
   
     document.querySelector('.next').onclick = tl.play;
+
     document.querySelector('.prev').onclick = tl1.play;
   }
 
