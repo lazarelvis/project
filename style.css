@@ -168,13 +168,6 @@ html, body, main {
   width: 250px;
 }
 
-.buttons {
-  position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 10px;
-}
-
 .slogan{
   text-align: center;
 }
@@ -328,9 +321,24 @@ html, body, main {
 }
 
 
-.buttons {
-  position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 10px;
+#prev, #next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 50px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+#prev:hover, #next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+#next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
