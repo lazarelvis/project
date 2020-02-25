@@ -258,7 +258,7 @@ font-size: 25px;
 
 }
 
-.rope{
+.rope,p{
   position: absolute;
   right: 200px;
   height: 100px;
