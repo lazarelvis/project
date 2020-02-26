@@ -26,6 +26,7 @@ body{
 }
 
 .navbar {
+
     background-color: #1F2732;
 }
 
@@ -254,14 +255,18 @@ font-size: 25px;
   font-size: 25px;
  
 }
+.despre{
+  text-align: center;
+  font-size: 25px;
+}
 
-.scope h1, .me h1{
+.scope h1, .me h1,.despre h1{
   padding-bottom: 20px;
 }
 .scope h3{
   font-weight: normal;
   font-size: 25px;
-  padding-bottom: 50px;
+  padding-bottom: 120px;
   
 }
 @media only screen and (max-width: 900px) {
@@ -301,7 +306,7 @@ font-size: 25px;
 
 .row {
   display: flex;
-  margin: 0px 40px;
+  margin: 0px 40px 120px;
   position: relative;
 }
 
@@ -312,7 +317,7 @@ font-size: 25px;
 }
 .circlePos{
     position:absolute;
-    top: 165px;
+    top: 200px;
     left:0;
     right:0;
     width:400px;
@@ -330,14 +335,14 @@ font-size: 25px;
 	position: absolute;
 	width: 27%;
 	height: 600px;
-	top: 60px;
+	top: 100px;
 	left: 120px;
 }
 .column #m{
 	position: absolute;
 	width: 25%;
 	height: 590px;
-	top: 85px;
+	top: 115px;
 	right:150px;
 }
 
@@ -368,12 +373,11 @@ font-size: 25px;
 
 .text1 {
   color:  white;
- font-family:  pristina;
   position: absolute;
   top: 30%;
-  left: 25%;
-  font-size: 25px;
-  text-align: center;
+  left: 120px;
+  font-size: 30px;
+width: 500px;
 }
 
 .text2
@@ -381,8 +385,8 @@ font-size: 25px;
 	color:  white;
 	position: absolute;
 	top: 30%;
-	right: 10%;
-	font-size: 25px;
-	text-align: center;
+	right: 120px;
+	font-size: 30px;
+  width: 500px;
   }
   
