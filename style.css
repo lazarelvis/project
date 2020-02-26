@@ -243,12 +243,18 @@ font-size: 25px;
 }
 
 /* scop section */
-.scope,.me{
+.scope{
   text-align: center;
   font-size: 25px;
   margin-right: 200px;
   margin-left: 200px;
 }
+.me{
+  text-align: center;
+  font-size: 25px;
+ 
+}
+
 .scope h1, .me h1{
   padding-bottom: 20px;
 }
@@ -288,3 +294,95 @@ font-size: 25px;
   position: relative;
   padding-bottom: 15px ;
 }
+/*Pentru poze (M&E)*/
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  margin: 0px 40px;
+  position: relative;
+}
+
+
+.column {
+  flex: 50%;
+  padding: 10px;
+}
+.circlePos{
+    position:absolute;
+    top: 165px;
+    left:0;
+    right:0;
+    width:400px;
+    height:500px; 
+    margin:auto;
+}
+.circle{
+	background-color: white;
+	height: 400px;
+	width: 400px;
+	border-radius: 50%;
+}
+
+.column #e{
+	position: absolute;
+	width: 27%;
+	height: 600px;
+	top: 60px;
+	left: 120px;
+}
+.column #m{
+	position: absolute;
+	width: 25%;
+	height: 590px;
+	top: 85px;
+	right:150px;
+}
+
+@media only screen and (max-width: 1280px) {
+  .circle{
+   	height: 370px;
+	width: 370px;
+    }
+    .circlePos{
+    top: 125px;
+    width:365px;
+    height:500px; 
+	}
+	.column #e{
+		width: 27%;
+		height: 500px;
+		top: 60px;
+		left: 90px;
+	}
+	.column #m{
+		position: absolute;
+		width: 26%;
+		height: 510px;
+		top: 60px;
+		right:100px;
+	}
+}
+
+.text1 {
+  color:  white;
+ font-family:  pristina;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  font-size: 25px;
+  text-align: center;
+}
+
+.text2
+{
+	color:  white;
+	position: absolute;
+	top: 30%;
+	right: 10%;
+	font-size: 25px;
+	text-align: center;
+  }
+  
