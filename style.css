@@ -255,10 +255,7 @@ font-size: 25px;
   font-size: 25px;
  
 }
-.despre{
-  text-align: center;
-  font-size: 25px;
-}
+
 
 .scope h1, .me h1,.despre h1{
   padding-bottom: 20px;
@@ -390,3 +387,4 @@ width: 500px;
   width: 500px;
   }
   
+  margin-left: 200px;
