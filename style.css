@@ -387,4 +387,16 @@ width: 500px;
   width: 500px;
   }
   
+/* sectiuna despre  */
+.despre{
+  text-align: center;
+  font-size: 25px;
+  margin-right: 200px;
   margin-left: 200px;
+}
+
+.despre h3{
+  font-weight: normal;
+  font-size: 25px;
+  padding-bottom: 50px;
+}
