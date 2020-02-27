@@ -386,17 +386,80 @@ width: 500px;
 	font-size: 30px;
   width: 500px;
   }
-  
-/* sectiuna despre  */
-.despre{
-  text-align: center;
-  font-size: 25px;
-  margin-right: 200px;
-  margin-left: 200px;
-}
+/* Pozitiile iconitelor  */
+.iconite img
+{
+position: absolute;
+width: 70px;
 
-.despre h3{
-  font-weight: normal;
-  font-size: 25px;
-  padding-bottom: 50px;
+}
+#i1
+{
+  width: 80px;
+position: absolute;
+right: 40px;
+bottom: 160px ;
+}
+#i2{
+  width: 75px;
+position: absolute;;
+bottom: 300px;
+left: 120px;
+}
+#i3{
+  position: absolute;
+  width: 60px;
+  bottom: 250px;
+  right:20px;
+}
+#i4{
+  position: absolute;
+  bottom: 130px;
+  right: 170px;
+}
+#i5{
+  position: absolute;
+  width: 60px;
+  right: 310px;
+  bottom: 260px;
+}
+#i6{
+  position: absolute;
+  right: 210px;
+  bottom: 220px;
+}
+#i7{
+  position: absolute;
+  width: 80px;
+  right: 90px;
+  bottom: 300px;
+}
+#i8{
+position:absolute;
+bottom: 150px;
+left: 60px;
+}
+#i9{
+  position:absolute;
+  bottom: 210px;
+}
+#i10{
+  position: absolute;
+  left: 30px;
+  bottom: 360px;
+}
+#i11{
+  position: absolute;
+  transform:scaleX(-1); 
+  bottom: 350px;
+  right:25px;
+}
+#i12{
+  position: absolute;
+  bottom: 10cm;
+}
+#i13{
+  position: absolute;
+  right: 220px;
+  bottom: 390px;
 }
