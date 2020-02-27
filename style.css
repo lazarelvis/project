@@ -463,3 +463,176 @@ left: 60px;
   right: 220px;
   bottom: 390px;
 }
+
+/* sectiuna despre  */
+.despre{
+  text-align: center;
+  font-size: 25px;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+.despre h3{
+  font-weight: normal;
+  font-size: 25px;
+  padding-bottom: 50px;
+}
+
+.containerCirc{
+  position: relative;
+}
+.circles{
+	position:absolute;
+    top: 50px;
+    left:0;
+    right:0;
+    width:90px;
+    height:10px; 
+    margin:auto;
+}
+
+.shortRect{
+	width: 9px;
+	height: 30px;
+	margin-left: 41px; 
+	background-color: #0A2243;
+}
+
+.circle1,.circle2,.circle3,.circle4,.circle5{
+	width: 90px;
+	height: 90px;
+	background: #0A2243;
+	border-radius: 50%;
+
+}
+.smallCircle{
+	margin-left: 25.5px; 
+	width: 40px;
+	height: 40px;
+	background: #0A2243;
+	border-radius: 50%;
+
+}
+.rectangle{
+	width: 9px;
+	height: 50px;
+	margin-left: 41px; 
+	background-color: #0A2243;
+}
+
+
+.circle1 img{
+	width: 60px;
+	height: 50px;
+	padding-top: 15px;
+	padding-left: 14px;
+}
+.circle2 img{
+	width: 62px;
+	height: 40px;
+	padding-top: 25px;
+	padding-left: 14px;
+}
+.circle3 img{
+	width: 62px;
+	height: 32px;
+	padding-top: 29px;
+	padding-left: 14px;
+}
+.circle4 img{
+	width: 53px;
+	height: 50px;
+	padding-top: 16px;
+	padding-left: 18px;
+}
+.circle5 img{
+	width: 53px;
+	height: 50px;
+	padding-top: 16px;
+	padding-left: 18px;
+}
+/*titluri*/
+.titluri{
+	position: relative;
+}
+.stangaTit{
+	position: absolute;
+	left:0;
+	right:300px;
+	margin: auto;
+	width: 100px;
+}
+
+.gaming{
+	position: absolute;
+	top: 140px;
+	left: -12px;
+	
+}
+.fitness{
+	position: absolute;
+	top: 420px;
+}
+.rating{
+	position: absolute;
+	top: 700px;
+	width: 200px;
+	right:-28px;
+}
+
+
+.descriere1{
+	position: absolute;
+	top: 280px;
+	width: 300px;
+	text-align: right;
+	right: 0;
+}
+.descriere2{
+	position: absolute;
+	top: 580px;
+	width: 300px;
+	text-align: right;
+	right: 0;
+}
+
+
+.dreaptaTit{
+	position: absolute;
+	left:300px;
+	right:0;
+	margin: auto;
+	width: 100px;
+}
+.descriere3{
+	position: absolute;
+	top: 140px;
+	width: 300px;
+	left: 0px;
+}
+
+.blog{
+	position: absolute;
+	top: 280px;
+	
+}
+.descriere4{
+	position: absolute;
+	top: 420px;
+	width: 300px;
+	text-align: left;
+	left: 0;
+}
+.magazin{
+	position: absolute;
+	top: 560px;
+	
+}
+
+.descriere5{
+	position: absolute;
+	top: 700px;
+	width: 300px;
+	text-align: left;
+	left: 0;
+}
