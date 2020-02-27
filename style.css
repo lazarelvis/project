@@ -257,6 +257,7 @@ font-size: 25px;
 }
 
 
+
 .scope h1, .me h1,.despre h1{
   padding-bottom: 20px;
 }
@@ -522,34 +523,39 @@ left: 60px;
 
 
 .circle1 img{
-	width: 60px;
-	height: 50px;
-	padding-top: 15px;
+	width: 70px;
+	height: 64px;
+	padding-top: 17px;
 	padding-left: 14px;
 }
 .circle2 img{
 	width: 62px;
-	height: 40px;
+	height: 60px;
 	padding-top: 25px;
-	padding-left: 14px;
+	padding-left: 1px;
+	margin-left: 14px;
 }
 .circle3 img{
-	width: 62px;
-	height: 32px;
-	padding-top: 29px;
-	padding-left: 14px;
+  width: 76px;
+	height: 38px;
+	padding-top: 9px;
+	padding-left: 15px;
+	margin-top: 20px;
 }
 .circle4 img{
-	width: 53px;
-	height: 50px;
+	width: 64px;
+	height: 61px;
 	padding-top: 16px;
-	padding-left: 18px;
+	padding-left: 15px;
+	margin-top: 4px;
+	margin-left: 8px;
 }
 .circle5 img{
-	width: 53px;
-	height: 50px;
-	padding-top: 16px;
-	padding-left: 18px;
+	width: 67px;
+	height: 64px;
+	padding-top: 17px;
+	padding-left: 16px;
+	margin-left: 2px;
 }
 /*titluri*/
 .titluri{
@@ -576,7 +582,7 @@ left: 60px;
 .rating{
 	position: absolute;
 	top: 700px;
-	width: 200px;
+	width: 240px;
 	right:-28px;
 }
 
