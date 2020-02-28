@@ -22,7 +22,7 @@
         <li><a href="#ACASA" class="link">ACASA</a></li>
         <li><a href="#scope" class="link">SCOPE</a></li>
         <li><a href="#me" class="link">M&E</a></li>
-        <li><a href="#DESPRE" class="link">DESPRE</a></li>
+        <li><a href="#despre" class="link">DESPRE</a></li>
         <li><a href="#CONTACT" class="link">CONTACT</a></li>
       </ul>
   </div>
@@ -102,7 +102,6 @@
           <img src="./Iconite/LogoMakr_6CFqG5.png" id="i11"/>
           <img src="./Iconite/LogoMakr_7ltdO8.png" id="i12"/>
           <img src="./Iconite/LogoMakr_06PivN.png" id="i13"/>
-          
         </div>
       </div>
   
@@ -114,7 +113,6 @@
             Deloc incepartor in ale HTML-ului si CSS-ului, intotdeauna in cautare de noi implementari sau update-uri.
             Muncitor si inovativ este jumatatea serioasa a acestui site.
           </div>
-        
       </div>
       <svg width="100%" height="800">
       <rect width="100%" height="100%" style="fill:#38A2D8" />
@@ -128,7 +126,7 @@
           <div class="text2">Mihaita este genul de persoana pe care te poti baza cand ai nevoie o imbratisare si o vorba buna.
             Inca incepator in ale HTML-ului si CSS-ului insa mereu dornic sa invete lucruri noi.
             Copilaros si creativ el este jumatatea childish al acestui site.
-          </div>
+      </div>
         
       </div>
         <svg width="100%" height="800" id="D">
@@ -141,7 +139,7 @@
 
   </div>
 
-  <div class="despre">
+  <div class="despre" id="despre">
     <h1><svg height="16" width="100">
       <line x1="0" y1="0" x2="80" y2="0" style="stroke:turquoise;stroke-width:7" />
     </svg>Despre<svg height="16" width="100">
@@ -154,7 +152,7 @@
       si o pagina cu food review si restaurant rating, anunturi din tenologii si ce mai este nou pe piata.
     </h3>
   </div>
-
+<main class="desen">
   <div class="containerCirc">
     <div class="circles">
 		  <div class="smallCircle"></div>
@@ -172,6 +170,7 @@
 		  <div class="smallCircle"></div>
 	  	</div>
   </div>
+
   <div class="titluri">
     <div class="stangaTit">
         <h1 class="gaming">Gaming</h1>
@@ -188,8 +187,47 @@
     <p class="descriere5">Acesta este un paragraf Acesta este un paragraf</p>
     </div>
   </div>
+  <div class="stop"></div>
+</main>
+
+  <div class="contact">
+    <h1><svg height="16" width="100">
+      <line x1="0" y1="0" x2="80" y2="0" style="stroke:turquoise;stroke-width:7" />
+    </svg>Contact<svg height="16" width="100">
+      <line x1="20" y1="0" x2="100" y2="0" style="stroke:turquoise;stroke-width:7" />
+    </svg></h1>
+    <h3 id="padBot">Feel free to contact as on any social media for more info about the site or 
+    </h3>
+    <h3>what ever do you want to know.</h3>
+    <div class="buttonRotund"><h3 id="sayhi">Say hello!</h3></div>
+    <div id="panel">Hello world!</div>
+
+    <div class="distanta"></div>
+</div>
+
+<div class="footer">
+  <div class="socialIc">
+    <img id="ic1" src="./Iconite/ic1.png">
+    <img id="ic2" src="./Iconite/ic2.png">
+    <img id="ic3" src="./Iconite/ic3.png">
+      <h3 class="textFot">Copyright	&#169 2020</h3>
+    <img id="ic4" src="./Iconite/ic1.png">
+    <img id="ic5" src="./Iconite/ic2.png">
+    <img id="ic6" src="./Iconite/ic3.png">
+  </div>
+  
+</div>
+
+ 
 <script src="file.js"></script>
 <script src="./Poze.js"></script>
 <script src="./cutTheRopeJQuery.js"></script>
+<script>
+  $(document).ready(function(){
+  $(".buttonRotund").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+</script>
 </body>
 </html>

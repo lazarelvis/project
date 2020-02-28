@@ -258,7 +258,7 @@ font-size: 25px;
 
 
 
-.scope h1, .me h1,.despre h1{
+.scope h1, .me h1,.despre h1,.contact h1{
   padding-bottom: 20px;
 }
 .scope h3{
@@ -469,14 +469,15 @@ left: 60px;
 .despre{
   text-align: center;
   font-size: 25px;
-  margin-right: 200px;
-  margin-left: 200px;
+ 
 }
 
 .despre h3{
   font-weight: normal;
   font-size: 25px;
   padding-bottom: 50px;
+  margin-right: 200px;
+  margin-left: 200px;
 }
 
 .containerCirc{
@@ -559,7 +560,7 @@ left: 60px;
 }
 /*titluri*/
 .titluri{
-	position: relative;
+  position: relative;
 }
 .stangaTit{
 	position: absolute;
@@ -641,4 +642,101 @@ left: 60px;
 	width: 300px;
 	text-align: left;
 	left: 0;
+}
+.desen{
+  height: 900px;
+}
+
+/* sectiuna contact  */
+.contact{
+  position: relative;
+  text-align: center;
+  font-size: 25px;
+
+}
+
+.contact h3{
+  text-align: center;
+  font-weight: normal;
+  font-size: 25px;
+  padding-bottom: 30px;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+#padBot{
+  padding-bottom: 0;
+}
+
+.buttonRotund{
+  border-radius: 22px;
+  border: 3px #0A2243 solid;
+  width: 180px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+#sayhi{
+  position: absolute;
+  left:0;
+  right: 0;
+  padding-top: 8px;
+}
+
+.footer {
+  position: relative;
+  background-color: #09182B;
+  padding: 35px;
+}
+
+.distanta{
+  padding-bottom: 15px;
+}
+.socialIc img{
+  position: absolute;
+  width: 45px;
+  bottom: 12px;
+
+}
+#ic1{
+
+}
+#ic2{
+  left: 103px;
+}
+#ic3{
+  left: 171px;
+}
+
+#ic4{
+right: 170px;
+}
+#ic5{
+right: 105px;
+}
+#ic6{
+right: 40px;
+}
+
+.textFot{
+position: absolute;
+right: 0;
+left: 0;
+text-align: center;
+color: white;
+font-weight: normal;
+top: 20px;
+}
+
+
+
+
+#panel, .buttonRotund {
+  text-align: center;
+  background-color: white;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
 }
