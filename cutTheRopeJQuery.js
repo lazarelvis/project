@@ -1,3 +1,9 @@
+$(document).ready(function(){
+  $(".buttonRotund").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+
 $('.rope1').hide();
 $('.rope2').hide();
 $('.feed').hide();

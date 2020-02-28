@@ -23,6 +23,7 @@ body{
     font-size: 20px;
     font-family: CircularStd;
     color: #0A2243;
+    
 }
 
 .navbar {
@@ -698,16 +699,13 @@ left: 60px;
   bottom: 12px;
 
 }
-#ic1{
 
-}
 #ic2{
   left: 103px;
 }
 #ic3{
   left: 171px;
 }
-
 #ic4{
 right: 170px;
 }
@@ -717,7 +715,6 @@ right: 105px;
 #ic6{
 right: 40px;
 }
-
 .textFot{
 position: absolute;
 right: 0;
@@ -727,16 +724,69 @@ color: white;
 font-weight: normal;
 top: 20px;
 }
-
-
-
-
 #panel, .buttonRotund {
   text-align: center;
   background-color: white;
+
 }
 
 #panel {
   padding: 50px;
+  width:700px ;
   display: none;
+}
+input[type=text] {
+  position: relative;
+  width: 500px;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  margin-top: 10px;
+  font-size: 22px;
+  border-radius: 15px;
+}
+
+textarea{
+  position: relative;
+  width: 500px;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  margin:5px 700px;
+  margin: auto;
+  margin-top: 10px;
+  font-size: 22px;
+  border-radius: 15px;
+  resize: none;
+}
+textarea:focus{
+  border: 3px solid #555;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+#trimite{
+  position: absolute;
+  left :-150px;
+  right: 0;
+  padding-top: 8px;
+  color: white;
+}
+.butontrimite{
+  position: relative;
+  border-radius: 22px;
+  border: 3px #0A2243 solid;
+  width: 180px;
+  height: 50px;
+  margin-bottom: 20px;
+  margin-right: 50px;
+  margin-top: 20px;
+  background-color:#0A2243 ;
 }

@@ -200,15 +200,22 @@
     </h3>
     <h3>what ever do you want to know.</h3>
     <div class="buttonRotund"><h3 id="sayhi">Say hello!</h3></div>
-    <div id="panel">Hello world!</div>
+    <div id="panel">
+      <div id="inputuri">
+      <input type="text" id="name" placeholder="Nume">
+      <input type="text" id="email" placeholder="Email" >
+      <textarea id="mesaj" rows="4" cols="50" placeholder="Mesaj"></textarea>
+    </div>
+      <div class="butontrimite"><h3 id="trimite">Trimite</h3></div>
+    </div>
 
     <div class="distanta"></div>
 </div>
 
 <div class="footer">
   <div class="socialIc">
-    <img id="ic1" src="./Iconite/ic1.png">
-    <img id="ic2" src="./Iconite/ic2.png">
+    <a href="https://www.facebook.com/" ></a><img id="ic1" src="./Iconite/ic1.png"></a>
+    <a href="https://www.facebook.com/" ></a><img id="ic2" src="./Iconite/ic2.png"></a>
     <img id="ic3" src="./Iconite/ic3.png">
       <h3 class="textFot">Copyright	&#169 2020</h3>
     <img id="ic4" src="./Iconite/ic1.png">
@@ -222,12 +229,6 @@
 <script src="file.js"></script>
 <script src="./Poze.js"></script>
 <script src="./cutTheRopeJQuery.js"></script>
-<script>
-  $(document).ready(function(){
-  $(".buttonRotund").click(function(){
-    $("#panel").slideToggle("slow");
-  });
-});
-</script>
+
 </body>
 </html>
