@@ -688,6 +688,7 @@ left: 60px;
   position: relative;
   background-color: #09182B;
   padding: 35px;
+  z-index: 1;
 }
 
 .distanta{
@@ -697,7 +698,7 @@ left: 60px;
   position: absolute;
   width: 45px;
   bottom: 12px;
-
+z-index: 4;
 }
 
 #ic2{
@@ -723,6 +724,7 @@ text-align: center;
 color: white;
 font-weight: normal;
 top: 20px;
+z-index: 2;
 }
 #panel, .buttonRotund {
   text-align: center;
