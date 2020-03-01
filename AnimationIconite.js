@@ -1,9 +1,10 @@
 function AnimateRotate(d,y){
-    $({deg: 0}).animate({deg: d}, {
+    $({deg: 0}).animate({deg: d },
+         {duration:500,
         step: function(now, fx){
             $("#i"+y+"").css({
                  transform: "rotate(" + now + "deg)"
-                 ,duration:7000
+                 
 
             });
         }
