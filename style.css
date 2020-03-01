@@ -63,6 +63,7 @@ li{
   display: inline-block;
   padding: 0px 15px;
   color: turquoise;
+  
 }
 
 a{
@@ -70,23 +71,22 @@ a{
   color:turquoise;
 }
 
-.link{
-  position: relative;
+a:after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  height: 3px;
+  width: 0;
+  background: transparent;
 }
 
-.link:after{
-  content: '';
-  position: absolute;
-  width: 0; height: 3px;
-  display: block;
-  margin-top: 5px;
-  right: 0;
-   color:turquoise;
-  transition: width .2s ease;
-  -webkit-transition: width .2s ease;
+.link:after {
+  transition: width .5s ease, background-color .5s ease, left .5s ease;
 }
- 
-.link:hover:after{
+
+.link:hover:after {
   width: 100%;
   left: 0;
   background: turquoise;
