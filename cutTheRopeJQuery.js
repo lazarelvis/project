@@ -26,4 +26,4 @@ $('.cutTheRope').on('mouseenter', () => {
     $( ".rope1" ).hide();
 $( ".rope2" ).show();
 $( ".feed" ).show();
-})
+});
