@@ -574,12 +574,13 @@ left: 60px;
 .gaming{
 	position: absolute;
 	top: 140px;
-	left: -12px;
+	left: -40px;
 	
 }
 .fitness{
 	position: absolute;
-	top: 420px;
+  top: 420px;
+  left: -30px;
 }
 .rating{
 	position: absolute;
