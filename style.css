@@ -801,3 +801,19 @@ input[type=text]:focus {
   margin-top: 20px;
   background-color:#0A2243 ;
 }
+
+.sentMsj{
+  position: fixed;
+  top: 0;
+  right: 0;
+  fill: #D1ECF1;
+}
+.sentMsj svg{
+  border-radius: 10px;
+}
+.sentMsj p{
+  position: absolute;
+  top:20px;
+  width: 300px;
+  right: 0;
+}
