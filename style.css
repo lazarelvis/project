@@ -810,9 +810,11 @@ input[type=text]:focus {
   border: 3px solid #555;
 }
 #trimite{
+  width: 200px;
   position: absolute;
-  left :-150px;
+  left :-210px;
   right: 0;
+  padding: 5px;
   padding-top: 8px;
   color: white;
 }
@@ -867,12 +869,13 @@ input[type=text]:focus {
     color: white;
   }
 /* Hover pt trimite */
+/* // radial-in effect */
 .radial-in{
   overflow: hidden;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
-  background-color:white;
+  background-color:white !important;
   position: relative;
   -webkit-transition: color 300ms;
   transition: color 300ms;
@@ -888,7 +891,7 @@ input[type=text]:focus {
     right: 0;
     bottom: 0;
     background: #0A2243;
-    border-radius: 100%;
+    border-radius: 22px;
     -webkit-transform: scale(2);
     transform: scale(2);
     -webkit-transition-property: transform;
@@ -896,7 +899,7 @@ input[type=text]:focus {
     -webkit-transition: 300ms ease-out;
     transition: 300ms ease-out;
   }
-    .radial-in:hover:after{
+  .radial-in:hover:after{
     -webkit-transform: scale(0);
     transform: scale(0);
   }
