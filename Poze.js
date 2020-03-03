@@ -17,3 +17,17 @@ $('.column2').on('mouseenter', () => {
     $('#m').show();
     $('.text2').hide();
 });
+
+
+// aparitie mesaj trimis
+
+$('.sentMsj').hide();
+$('.butontrimite').click(function() {
+    $('.sentMsj').slideDown("slow");
+    // $('.sentMsj').delay(1200).hide(500);
+    $('.sentMsj').delay(1200).fadeOut(400);
+    // $('.sentMsj').animate({right: '-450px',loop:'true'}).hide('slow');
+  });
+
+
+
