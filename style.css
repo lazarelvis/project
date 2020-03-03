@@ -300,6 +300,28 @@ font-size: 25px;
   position: relative;
   padding-bottom: 15px ;
 }
+.cutTheRope1{
+  position: relative;
+  padding-bottom: 15px ;
+}
+.srope{
+  position: absolute;
+  left: 200px;
+  height: 100px;
+  width: 100px;
+}
+.srope1{
+  position: absolute;
+  left:  200px;
+  height: 100px;
+  width: 100px;
+}
+.srope2{
+  position: absolute;
+  left: 200px;
+  height: 100px;
+  width: 100px;
+}
 /*Pentru poze (M&E)*/
 * {
   box-sizing: border-box;
@@ -399,7 +421,7 @@ width: 70px;
 }
 #i1
 {
-  width: 80px;
+width: 80px;
 position: absolute;
 right: 40px;
 bottom: 160px ;
@@ -407,8 +429,8 @@ bottom: 160px ;
 #i2{
   width: 75px;
 position: absolute;;
-bottom: 300px;
-left: 120px;
+bottom: 380px;
+left: 100px;
 }
 #i3{
   position: absolute;
@@ -425,17 +447,17 @@ left: 120px;
   position: absolute;
   width: 60px;
   right: 310px;
-  bottom: 260px;
+  bottom: 220px;
 }
 #i6{
   position: absolute;
-  right: 210px;
-  bottom: 220px;
+  right: 300px;
+  bottom: 310px;
 }
 #i7{
   position: absolute;
   width: 80px;
-  right: 90px;
+  right: 100px;
   bottom: 300px;
 }
 #i8{
@@ -445,27 +467,28 @@ left: 60px;
 }
 #i9{
   position:absolute;
-  bottom: 210px;
+  bottom: 350px;
+  right: 30px;
 }
 #i10{
   position: absolute;
-  left: 30px;
-  bottom: 360px;
+  right: 200px;
+  bottom: 330px;
 }
 #i11{
   position: absolute;
-  transform:scaleX(-1); 
-  bottom: 350px;
-  right:25px;
+  bottom: 220px;
+  right:100px;
 }
 #i12{
   position: absolute;
-  bottom: 10cm;
+  bottom: 6cm;
+  right: 200px;
 }
 #i13{
   position: absolute;
-  right: 220px;
-  bottom: 390px;
+  right: 120px;
+  bottom: 410px;
 }
 
 /* sectiuna despre  */
@@ -682,16 +705,16 @@ left: 60px;
   width: 180px;
   height: 50px;
   margin-bottom: 20px;
-  cursor: pointer;
 }
 
 #sayhi{
   position: absolute;
-  left:0;
+  left:-10px;
   right: 0;
   width: 200px;
   margin: auto;
   padding-top: 8px;
+
 }
 
 .footer {
@@ -805,7 +828,81 @@ input[type=text]:focus {
   margin-top: 20px;
   background-color:#0A2243 ;
 }
-
+/* Hover pentru say hi */
+.radial-out{
+  
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition: color 300ms;
+  transition: color 300ms;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+  .radial-out:after{
+    
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #0A2243;
+    border-radius: 22px;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition: 300ms ease-out;
+    transition: 300ms ease-out;
+   }
+  .radial-out:hover:after{
+    -webkit-transform: scale(2);
+    transform: scale(2);
+  }
+  #sayhi:hover{
+    color: white;
+  }
+/* Hover pt trimite */
+.radial-in{
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:white;
+  position: relative;
+  -webkit-transition: color 300ms;
+  transition: color 300ms;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+  .radial-in:after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #0A2243;
+    border-radius: 100%;
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition: 300ms ease-out;
+    transition: 300ms ease-out;
+  }
+    .radial-in:hover:after{
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  #trimite:hover{
+    color:#0A2243;
+  }
 .sentMsj{
   position: fixed;
   top: 0;

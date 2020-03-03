@@ -6,6 +6,8 @@ $(document).ready(function(){
 
 $('.rope1').hide();
 $('.rope2').hide();
+$('.srope1').hide();
+$('.srope2').hide();
 $('.feed').hide();
 
 
@@ -24,6 +26,23 @@ $('.cutTheRope').on('mouseenter', () => {
   $( ".rope1" ).click(function() {
     $( ".rope" ).hide();
     $( ".rope1" ).hide();
-$( ".rope2" ).show();
-$( ".feed" ).show();
-});
+    $( ".rope2" ).show();
+    $( ".feed" ).show();
+  });
+
+
+  $('.cutTheRope1').on('mouseenter', () => {
+    $('.srope').hide();
+    $('.srope1').show();
+    $('.srope2').hide();
+
+  }).on('mouseleave', () => {
+    $('.srope1').hide();
+    $('.srope').show();
+    $('.srope2').hide();
+  });
+  $( ".srope1" ).click(function() {
+    $( ".srope" ).hide();
+    $( ".srope1" ).hide();
+    $( ".srope2" ).show();
+  });

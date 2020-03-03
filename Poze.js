@@ -2,7 +2,7 @@
 $('.text1').hide();
 $('.text2').hide();
 
-$('.column1').on('mouseenter', () => {
+$('.column1').click(function() {
     $('#e').hide(500);
     $('.text1').show('slow');
     
@@ -10,7 +10,7 @@ $('.column1').on('mouseenter', () => {
     $('#e').show();
     $('.text1').hide();
 });
-$('.column2').on('mouseenter', () => {
+$('.column2').click(function() {
     $('#m').hide(500);
     $('.text2').show('slow');
 }).on('mouseleave', () => {
