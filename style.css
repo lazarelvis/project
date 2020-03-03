@@ -54,6 +54,8 @@ body{
 
  .navbar li a:hover{
  color:turquoise;
+ transition: 0.5s;
+
  }
 
 /* hover navbar */
@@ -696,6 +698,7 @@ left: 60px;
   position: relative;
   background-color: #09182B;
   padding: 35px;
+  padding-top: 30px !important;
   z-index: 1;
 }
 
@@ -704,22 +707,22 @@ left: 60px;
 }
 .socialIc img{
   position: absolute;
-  width: 45px;
+  width: 40px;
   bottom: 12px;
 z-index: 4;
 }
 
 #ic2{
-  left: 103px;
+  left: 90px;
 }
 #ic3{
-  left: 171px;
+  left: 145px;
 }
 #ic4{
-right: 170px;
+right: 150px;
 }
 #ic5{
-right: 105px;
+right: 95px;
 }
 #ic6{
 right: 40px;
@@ -733,6 +736,7 @@ color: white;
 font-weight: normal;
 top: 20px;
 z-index: 2;
+/* font-size: 0.7em; */
 }
 #panel, .buttonRotund {
   text-align: center;

@@ -28,3 +28,6 @@ $('.butontrimite').click(function() {
     $('.sentMsj').delay(1200).fadeOut(400);
     // $('.sentMsj').animate({right: '-450px',loop:'true'}).hide('slow');
   });
+
+
+
