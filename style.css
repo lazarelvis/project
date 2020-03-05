@@ -618,14 +618,14 @@ left: 60px;
 .descriere1{
 	position: absolute;
 	top: 280px;
-	width: 300px;
+	width: 450px;
 	text-align: right;
 	right: 0;
 }
 .descriere2{
 	position: absolute;
 	top: 560px;
-	width: 300px;
+	width: 450px;
 	text-align: right;
 	right: 0;
 }
@@ -641,7 +641,7 @@ left: 60px;
 .descriere3{
 	position: absolute;
 	top: 140px;
-	width: 300px;
+	width: 450px;
 	left: 0px;
 }
 
@@ -653,7 +653,7 @@ left: 60px;
 .descriere4{
 	position: absolute;
 	top: 420px;
-	width: 300px;
+	width: 450px;
 	text-align: left;
 	left: 0;
 }
@@ -666,7 +666,7 @@ left: 60px;
 .descriere5{
 	position: absolute;
 	top: 700px;
-	width: 300px;
+	width: 450px;
 	text-align: left;
 	left: 0;
 }
@@ -922,12 +922,3 @@ input[type=text]:focus {
   right: 0;
 }
 
-.mascota img{
-  position: fixed;
-  height: 120px;
-  width:200px;
-  right: 30px;
-  top: 104px;
-  z-index: 100;
-
-}
