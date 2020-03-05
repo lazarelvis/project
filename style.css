@@ -921,3 +921,13 @@ input[type=text]:focus {
   width: 300px;
   right: 0;
 }
+
+.mascota img{
+  position: fixed;
+  height: 120px;
+  width:200px;
+  right: 30px;
+  top: 104px;
+  z-index: 100;
+
+}
