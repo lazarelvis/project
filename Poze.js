@@ -29,5 +29,11 @@ $('.butontrimite').click(function() {
     // $('.sentMsj').animate({right: '-450px',loop:'true'}).hide('slow');
   });
 
+//   aparitie urs shazam
+
+$("#ursulet").fadeIn(900);
+$("#labutaS").fadeIn(900);
+$("#labutaD").fadeIn(900);
+
 
 

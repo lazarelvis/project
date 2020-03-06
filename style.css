@@ -277,51 +277,13 @@ font-size: 25px;
     }
   }
 
-.rope,p{
-  position: absolute;
-  right: 200px;
-  height: 100px;
-  width: 100px;
-}
-.rope1{
-  position: absolute;
-  right: 200px;
-  height: 100px;
-  width: 100px;
-}
-.rope2{
+p{
   position: absolute;
   right: 200px;
   height: 100px;
   width: 100px;
 }
 
-.cutTheRope{
-  position: relative;
-  padding-bottom: 15px ;
-}
-.cutTheRope1{
-  position: relative;
-  padding-bottom: 15px ;
-}
-.srope{
-  position: absolute;
-  left: 200px;
-  height: 100px;
-  width: 100px;
-}
-.srope1{
-  position: absolute;
-  left:  200px;
-  height: 100px;
-  width: 100px;
-}
-.srope2{
-  position: absolute;
-  left: 200px;
-  height: 100px;
-  width: 100px;
-}
 /*Pentru poze (M&E)*/
 * {
   box-sizing: border-box;
@@ -922,3 +884,81 @@ input[type=text]:focus {
   right: 0;
 }
 
+#ursulet{
+  display: none;
+  position: absolute;
+  width: 127px;
+  height: 111px;
+  top:129px;
+  right: 205px;
+}
+
+#labutaS {
+  display: none;
+  position: absolute;
+  width: 40px;
+  height: 28px;
+  right: 300px;
+  top: 230px;
+}
+
+#labutaD {
+  display: none;
+  position: absolute;
+  width: 40px;
+  height: 28px;
+  right: 190px;
+  top: 230px;
+}
+
+.pacheturs{
+  position: relative;
+}
+#ursulet1{
+  position: absolute;
+  width: 127px;
+  height: 111px;
+  top: -40px;
+  left: 60px;
+}
+
+#labutaS1{
+  position: absolute;
+  width: 40px;
+  height: 28px;
+  top: 60px;
+  left: 50px;
+}
+
+#labutaD1{
+  position: absolute;
+  width: 40px;
+  height: 28px;
+  top: 60px;
+  left: 160px;
+}
+
+
+#ursulet2{
+  position: absolute;
+  width: 127px;
+  height: 111px;
+  top: -40px;
+  right: 240px;
+}
+
+#labutaS2{
+  position: absolute;
+  width: 40px;
+  height: 28px;
+  top: 60px;
+  right: 230px;
+}
+
+#labutaD2{
+  position: absolute;
+  width: 40px;
+  height: 28px;
+  top: 60px;
+  right: 340px;
+}

@@ -5,7 +5,6 @@ function AnimateRotate(d,y){
             $("#i"+y+"").css({
                  transform: "rotate(" + now + "deg)"
                  
-
             });
         }
     });
