@@ -466,6 +466,7 @@ left: 60px;
   padding-bottom: 50px;
   margin-right: 200px;
   margin-left: 200px;
+  
 }
 
 .containerCirc{
@@ -794,7 +795,7 @@ input[type=text]:focus {
 }
 /* Hover pentru say hi */
 .radial-out{
-  
+  height: 51px;
   overflow: hidden;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -890,7 +891,7 @@ input[type=text]:focus {
   width: 127px;
   height: 111px;
   top:129px;
-  right: 205px;
+  right: 203px;
 }
 
 #labutaS {
@@ -918,7 +919,7 @@ input[type=text]:focus {
   position: absolute;
   width: 127px;
   height: 111px;
-  top: -40px;
+  top: 60px;
   left: 60px;
 }
 
@@ -928,6 +929,8 @@ input[type=text]:focus {
   height: 28px;
   top: 60px;
   left: 50px;
+  z-index: 1;
+
 }
 
 #labutaD1{
@@ -936,6 +939,8 @@ input[type=text]:focus {
   height: 28px;
   top: 60px;
   left: 160px;
+  z-index: 1;
+
 }
 
 
@@ -943,15 +948,16 @@ input[type=text]:focus {
   position: absolute;
   width: 127px;
   height: 111px;
-  top: -40px;
+  top: 60px;
   right: 240px;
+  z-index: -2;
 }
 
 #labutaS2{
   position: absolute;
   width: 40px;
   height: 28px;
-  top: 60px;
+  top: 50px;
   right: 230px;
 }
 
@@ -959,6 +965,13 @@ input[type=text]:focus {
   position: absolute;
   width: 40px;
   height: 28px;
-  top: 60px;
+  top: 50px;
   right: 340px;
+}
+#panou{
+position: absolute;
+z-index: -1;
+top:80px;
+right: 200px;
+fill: white;
 }

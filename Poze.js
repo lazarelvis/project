@@ -3,7 +3,7 @@ $('.text1').hide();
 $('.text2').hide();
 
 $('.column1').click(function() {
-    $('#e').hide(500);
+    $('#e').fadeOut(500);
     $('.text1').show('slow');
     
 }).on('mouseleave', () => {
@@ -11,7 +11,7 @@ $('.column1').click(function() {
     $('.text1').hide();
 });
 $('.column2').click(function() {
-    $('#m').hide(500);
+    $('#m').fadeOut(500);
     $('.text2').show('slow');
 }).on('mouseleave', () => {
     $('#m').show();
