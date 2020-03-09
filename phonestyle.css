@@ -25,8 +25,8 @@
 
 @media only screen and (max-width: 450px) {
     .scope{
-      margin-left: 50px;
-      margin-right: 50px;
+      margin-left: 10px;
+      margin-right: 10px;
       }
 
     .ursu,.pacheturs,.descriere1,.descriere2,.descriere3,.descriere4,.descriere5,.circlePos{
@@ -35,4 +35,22 @@
     .slogan h3{
         padding: 10px;
     }
+    #prev, #next {
+        top: 30%;
+    }
+    #carousel div img{
+        width: 750px;
+    }
+    /* .row{
+        display: inline;
+    } */
+
+    
+    /* .column #e{
+        width: 300px;
+        height: 400px;
+      right: 0;
+      left: 0;
+      margin-right: -120px;
+    } */
     }
