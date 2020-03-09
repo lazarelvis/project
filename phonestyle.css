@@ -1,0 +1,38 @@
+/* @media only screen and (max-width: 1280px) {
+  .circle{
+   	height: 370px;
+	width: 370px;
+    }
+    .circlePos{
+    top: 125px;
+    width:365px;
+    height:500px; 
+	}
+	.column #e{
+		width: 27%;
+		height: 500px;
+		top: 60px;
+		left: 90px;
+	}
+	.column #m{
+		position: absolute;
+		width: 26%;
+		height: 510px;
+		top: 60px;
+		right:100px;
+	}
+} */
+
+@media only screen and (max-width: 450px) {
+    .scope{
+      margin-left: 50px;
+      margin-right: 50px;
+      }
+
+    .ursu,.pacheturs,.descriere1,.descriere2,.descriere3,.descriere4,.descriere5,.circlePos{
+        display: none;
+    }
+    .slogan h3{
+        padding: 10px;
+    }
+    }

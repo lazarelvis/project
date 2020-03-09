@@ -190,22 +190,6 @@ font-weight: normal;
 font-size: 25px;
 }
 
-@media only screen and (max-height: 876px) {
-  #carousel{
-    height: 550px;
-    }
-  }
-@media only screen and (max-height: 820px) {
-#carousel{
-  height: 450px;
-  }
-}
-@media only screen and (max-height: 690px) {
-    #carousel{
-      height: 350px;
-  }
-}
-
 /* sageti slider */
 #prev, #next {
   cursor: pointer;
@@ -270,12 +254,7 @@ font-size: 25px;
   padding-bottom: 120px;
   
 }
-@media only screen and (max-width: 900px) {
-  .scope{
-    margin-left: 50px;
-    margin-right: 50px;
-    }
-  }
+
 
 p{
   position: absolute;
@@ -331,30 +310,7 @@ p{
 	right:150px;
 }
 
-@media only screen and (max-width: 1280px) {
-  .circle{
-   	height: 370px;
-	width: 370px;
-    }
-    .circlePos{
-    top: 125px;
-    width:365px;
-    height:500px; 
-	}
-	.column #e{
-		width: 27%;
-		height: 500px;
-		top: 60px;
-		left: 90px;
-	}
-	.column #m{
-		position: absolute;
-		width: 26%;
-		height: 510px;
-		top: 60px;
-		right:100px;
-	}
-}
+
 
 .text1 {
   color:  white;
