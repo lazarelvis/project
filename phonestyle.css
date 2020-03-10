@@ -24,33 +24,102 @@
 } */
 
 @media only screen and (max-width: 450px) {
-    .scope{
+    .scope,.despre h3,.contact h3{
       margin-left: 10px;
       margin-right: 10px;
       }
 
-    .ursu,.pacheturs,.descriere1,.descriere2,.descriere3,.descriere4,.descriere5,.circlePos{
+     .titluri,.dreaptaTit,.ursu,.pacheturs,.descriere1,.descriere2,.descriere3,.descriere4,.descriere5,.circlePos{
         display: none;
     }
     .slogan h3{
         padding: 10px;
     }
     #prev, #next {
-        top: 30%;
+        top: 100%;
     }
     #carousel div img{
+
         width: 750px;
     }
-    /* .row{
+    #carousel {
+        height: 450px;
+    }
+    #scope{
+        padding-top: 120px;
+    }
+    #scope h1{
+        padding-bottom: 20px;
+    }
+    #scope h3{
+        padding-bottom: 70px;
+    }
+
+    .row{
         display: inline;
-    } */
+    }
 
     
-    /* .column #e{
+    .column #e{
         width: 300px;
         height: 400px;
       right: 0;
       left: 0;
       margin-right: -120px;
-    } */
     }
+    .text1{
+    top: 200px;
+    left: -200px;
+    width: 350px;
+    font-size:23px;
+    }
+    .container1 svg{
+        height: 560px;
+    }
+    .column2 svg{
+        height: 560px;
+    }
+    
+    .column2 #m{
+    top: 700px;
+    width: 300px;
+    height: 400px;
+    right: 0;
+    left: 0;
+    margin-right: -120px;
+    }
+    .text2{
+    top: 770px;
+    left: -200px;
+    width: 350px;
+    font-size:23px;
+    } 
+    .despre {
+        padding: 20px;
+    }
+    .despre h1{
+        padding-bottom:30px ;
+    }
+    #ic1{
+left: 10px;
+    }
+    #ic2{
+        left: 60px;
+    }
+    #ic3{
+        left: 110px;
+    }
+    #ic4{
+    right: 110px;
+    }
+    #ic5{
+    right: 60px;
+    }
+    #ic6{
+    right: 10px;
+    }
+    .textFot{
+        font-size: 12px;
+        padding-top: 7px;
+    }
+        }
