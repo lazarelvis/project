@@ -2,8 +2,6 @@
 
 
 window.addEventListener('scroll',() => {
-    const scrolled =window.scrollY;
-    console.log(scrolled);
 
     if (window.scrollY>=650 && window.scrollY<=1300)
     {
