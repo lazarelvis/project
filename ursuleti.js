@@ -1,5 +1,14 @@
 
-
+$('.clasaR').hide();
+$('.clasaR1').hide();
+$('#t2').hide();
+$('#carousel').on('mouseenter',() => {
+  $('#t2').fadeIn();
+  $('#t1').hide();
+}).on('mouseleave',() =>{
+  $('#t1').fadeIn();
+  $('#t2').hide();
+});
 
 window.addEventListener('scroll',() => {
 
@@ -14,6 +23,7 @@ window.addEventListener('scroll',() => {
       $("#labutaD1").animate({
             top: "+80"
       },1000);
+      $('.clasaR').fadeIn(1500);
     };
     if (window.scrollY>=1550 && window.scrollY<=2000)
     {
@@ -23,5 +33,6 @@ window.addEventListener('scroll',() => {
         top: "+60"},1000);
         $("#labutaD2").animate({
             top: "+60"},1000);
+        $('.clasaR1').fadeIn(1500);
     };
   });
