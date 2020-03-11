@@ -933,3 +933,44 @@ top:80px;
 right: 200px;
 fill: white;
 }
+
+.clasa img{
+  position: absolute;
+  right:340px;
+  width: 230px;
+  height: 130px;
+  z-index: -1;
+}
+.clasa p{
+  position: absolute;
+  right: 380px;
+  width: 165px;
+  font-size: 17px;
+  top: 35px;
+  text-align: center;
+}
+
+.clasaP{
+  position: relative;
+}
+
+.clasa1 img{
+  position: absolute;
+  width: 240px;
+  height: 130px;
+  top: -100px;
+  left: 180px;
+}
+
+.paragraf{
+  position: absolute;
+  margin: 0;
+  left: 227px;
+  width: 165px;
+  top: -68px;
+  font-size: 17px;
+  text-align: center;
+}
+.clasaR{
+  position: relative;
+}
