@@ -791,42 +791,71 @@ input[type=text]:focus {
   }
 /* Hover pt trimite */
 /* // radial-in effect */
-.radial-in{
+.containerB{
+  margin-left:320px;
+}
+
+.containerB a {
+  background-color: #ecf0f1;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.9);
+  color: white;
+  display: block;
+  padding: 6px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  border-radius: 22px;
+  border:3px solid #0A2243;
+}
+.containerB a:hover {
+  color: #0A2243;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.5);
+
+}
+
+.radial-in {
   overflow: hidden;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
-  background-color:white !important;
+  background-color: white!important;
   position: relative;
   -webkit-transition: color 300ms;
   transition: color 300ms;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
-  .radial-in:after{
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #0A2243;
-    border-radius: 22px;
-    -webkit-transform: scale(2);
-    transform: scale(2);
-    -webkit-transition-property: transform;
-    transition-property: transform;
-    -webkit-transition: 300ms ease-out;
-    transition: 300ms ease-out;
-  }
-  .radial-in:hover:after{
-    -webkit-transform: scale(0);
-    transform: scale(0);
-  }
-  #trimite:hover{
-    color:#0A2243;
-  }
+.radial-in:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #0A2243;
+  border-radius: 100%;
+  -webkit-transform: scale(2);
+  transform: scale(2);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition: 300ms ease-out;
+  transition: 300ms ease-out;
+
+}
+.radial-in:hover:before {
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+
+.containerB button{
+  border-radius: 22px;
+  width: 182px;
+  padding: 0;
+  font-family: CircularStd;
+}
+
+
 .sentMsj{
   position: fixed;
   top: 0;

@@ -22,7 +22,7 @@ $('.column2').click(function() {
 // aparitie mesaj trimis
 
 $('.sentMsj').hide();
-$('.butontrimite').click(function() {
+$('.butontrimite1').click(function() {
     $('.sentMsj').slideDown("slow");
     // $('.sentMsj').delay(1200).hide(500);
     $('.sentMsj').delay(1200).fadeOut(400);
