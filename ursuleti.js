@@ -23,6 +23,7 @@ window.addEventListener('scroll',() => {
       $("#labutaD1").animate({
             top: "+80"
       },1000);
+      
       $('.clasaR').fadeIn(1500);
     };
     if (window.scrollY>=1550 && window.scrollY<=2000)

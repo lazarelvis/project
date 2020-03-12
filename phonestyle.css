@@ -22,14 +22,15 @@
 		right:100px;
 	}
 } */
-
 @media only screen and (max-width: 450px) {
+
+
     .scope,.despre h3,.contact h3{
       margin-left: 10px;
       margin-right: 10px;
       }
 
-     .titluri,.dreaptaTit,.ursu,.pacheturs,.descriere1,.descriere2,.descriere3,.descriere4,.descriere5,.circlePos{
+    .clasaP,.clasaR,.clasaR1,.titluri,.dreaptaTit,.ursu,.pacheturs,.descriere1,.descriere2,.descriere3,.descriere4,.descriere5,.circlePos{
         display: none;
     }
     .slogan h3{
