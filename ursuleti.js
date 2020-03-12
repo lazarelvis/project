@@ -12,7 +12,7 @@ $('#carousel').on('mouseenter',() => {
 
 window.addEventListener('scroll',() => {
 
-    if (window.scrollY>=650 && window.scrollY<=1300)
+    if (window.scrollY>=650 && window.scrollY<=1300 && ($(window).width() >= 450))
     {
       $("#ursulet1").animate({
         top: "-20"
@@ -26,7 +26,7 @@ window.addEventListener('scroll',() => {
       
       $('.clasaR').fadeIn(1500);
     };
-    if (window.scrollY>=1550 && window.scrollY<=2000)
+    if (window.scrollY>=1550 && window.scrollY<=2000 && ($(window).width() >= 450))
     {
       $("#ursulet2").animate({
         top: "-30"},1000);
