@@ -22,6 +22,12 @@
 		right:100px;
 	}
 } */
+@media only screen and (max-width: 400px) {
+    .scope h1, .me h1,.despre h1,.contact h1{
+        font-size: 40px;
+    }
+
+}
 @media only screen and (max-width: 450px) {
 
 
@@ -123,4 +129,156 @@ left: 10px;
         font-size: 12px;
         padding-top: 7px;
     }
+}
+@media screen and (max-width: 1820px) and (min-width: 1200px) {
+  
+#ursulet{
+   
+    top:129px;
+    right: 20px;
+  }
+  
+  #labutaS {
+   
+    right: 117px;
+    top: 230px;
+  }
+  
+  #labutaD {
+   
+    right: 7px;
+    top: 230px;
+  }
+  .clasa img{
+  
+    right:157px;
+    width: 200px;
+ 
+  }
+  .clasa p{
+    right: 197px;
+    width: 125px;
+    font-size: 14px;
+  }
+
+  #carousel div img {
+    width: 750px;
+  }
+  #carousel {
+      height: 400px;
+  }
+  .slogan h3{
+    padding-bottom: 0px;
+    }
+    #prev, #next {
+    top: 90%;
+    }
+    .circle{
+        height: 370px;
+     width: 370px;
+     }
+     .circlePos{
+     top: 125px;
+     width:365px;
+     height:500px; 
+     }
+     .column #e{
+         width: 27%;
+         height: 500px;
+         top: 60px;
+         left: 90px;
+     }
+     .column #m{
+         position: absolute;
+         width: 26%;
+         height: 510px;
+         top: 60px;
+         right:100px;
+     }
+     .text1 ,.text2{
+        font-size: 20px;
+        width: 300px;
+     }
+
+     .iconite img
+     {
+     width: 50px;
+     }
+
+
+     #i1
+     {
+     width: 80px;
+     position: absolute;
+     right: 40px;
+     bottom: 160px ;
+     }
+     #i2{
+       width: 75px;
+     position: absolute;;
+     bottom: 380px;
+     left: 100px;
+     }
+     #i3{
+       position: absolute;
+       width: 60px;
+       bottom: 250px;
+       right:20px;
+     }
+     #i4{
+       position: absolute;
+       bottom: 130px;
+       right: 170px;
+     }
+     #i5{
+       position: absolute;
+       width: 60px;
+       right: 310px;
+       bottom: 220px;
+     }
+     #i6{
+       position: absolute;
+       right: 300px;
+       bottom: 310px;
+     }
+     #i7{
+       position: absolute;
+       width: 80px;
+       right: 100px;
+       bottom: 300px;
+     }
+     #i8{
+     position:absolute;
+     bottom: 150px;
+     left: 60px;
+     }
+     #i9{
+       position:absolute;
+       bottom: 350px;
+       right: 30px;
+     }
+     #i10{
+       position: absolute;
+       right: 200px;
+       bottom: 330px;
+     }
+     #i11{
+       position: absolute;
+       bottom: 220px;
+       right:100px;
+     }
+     #i12{
+       position: absolute;
+       bottom: 6cm;
+       right: 200px;
+     }
+     #i13{
+       position: absolute;
+       right: 120px;
+       bottom: 410px;
+     }
+     #ST, #D {
+        height:600px;
+        
+     }
 }
