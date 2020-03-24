@@ -165,13 +165,13 @@ left: 10px;
     width: 750px;
   }
   #carousel {
-      height: 400px;
+      height: 450px;
   }
   .slogan h3{
     padding-bottom: 0px;
     }
     #prev, #next {
-    top: 90%;
+    top: 70%;
     }
     .circle{
         height: 370px;
@@ -202,80 +202,67 @@ left: 10px;
 
      .iconite img
      {
-     width: 50px;
+     width: 55px;
      }
 
 
      #i1
      {
-     width: 80px;
-     position: absolute;
-     right: 40px;
+     width: 65px;
+     right: 70px;
      bottom: 160px ;
      }
      #i2{
-       width: 75px;
-     position: absolute;;
-     bottom: 380px;
+     width: 60px;
+     bottom: 410px;
      left: 100px;
      }
      #i3{
-       position: absolute;
-       width: 60px;
-       bottom: 250px;
-       right:20px;
+      width: 45px;
+      bottom: 250px;
+      right:20px;
      }
      #i4{
-       position: absolute;
-       bottom: 130px;
-       right: 170px;
+      bottom: 150px;
+      right: 170px;
      }
      #i5{
-       position: absolute;
-       width: 60px;
-       right: 310px;
-       bottom: 220px;
+      width: 45px;
+      right: 280px;
+      bottom: 280px;
      }
      #i6{
-       position: absolute;
-       right: 300px;
-       bottom: 310px;
+      right: 270px;
+      bottom: 370px;
      }
      #i7{
-       position: absolute;
-       width: 80px;
-       right: 100px;
-       bottom: 300px;
+      width: 65px;
+      right: 100px;
+      bottom: 300px;
      }
      #i8{
-     position:absolute;
-     bottom: 150px;
+     bottom: 190px;
      left: 60px;
      }
      #i9{
-       position:absolute;
-       bottom: 350px;
-       right: 30px;
+      bottom: 350px;
+      right: 30px;
      }
      #i10{
-       position: absolute;
-       right: 200px;
-       bottom: 330px;
+      right: 180px;
+      bottom: 350px;
      }
      #i11{
-       position: absolute;
-       bottom: 220px;
-       right:100px;
+      bottom: 220px;
+      right:120px;
      }
      #i12{
-       position: absolute;
-       bottom: 6cm;
-       right: 200px;
+      bottom: 6.5cm;
+      right: 200px;
      }
      #i13{
-       position: absolute;
-       right: 120px;
-       bottom: 410px;
+      right: 120px;
+      bottom: 410px;
      }
      #ST, #D {
         height:600px;
