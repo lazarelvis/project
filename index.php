@@ -231,14 +231,16 @@
     <h3>what ever do you want to know.</h3>
     <div class="buttonRotund radial-out"><h3 id="sayhi">Say hello!</h3></div>
     <div id="panel">
+        <form novalidate="" action="adaugare.inc.php" method="post" >
       <div id="inputuri">
-      <input type="text" id="name" placeholder="Nume">
-      <input type="text" id="email" placeholder="Email" >
-      <textarea id="mesaj" rows="4" cols="50" placeholder="Mesaj"></textarea>
+      <input type="text" id="name" name="nume" placeholder="Nume">
+      <input type="text" id="email" name="email" placeholder="Email" >
+      <textarea id="mesaj" rows="4"  name="mesaj" cols="50" placeholder="Mesaj"></textarea>
     </div>
     <div class="containerB">
-      <button ><a href="#" class="radial-in">Trimite</a></button>
+      <button type="submit" name="adaugare"><a class="radial-in">Trimite</a></button>
       </div>
+        </form>
     </div>
       <div class="sentMsj"><svg width="300" height="70">
         <rect width="300" height="70" />
