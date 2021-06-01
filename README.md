@@ -1,1 +1,1 @@
-# project
+# Official MANDE page
