@@ -44,7 +44,7 @@
           <img id="labutaS" src="./img/labuta.png">
           <img id="labutaD" src="./img/labuta.png">
         </div>
-      <h3>Acest site este facut sa aiba de toate! De la jocuri compe titive la articole de fitness, food rating and much more than that.</h3>
+      <h3>Acest site este facut sa aiba de toate! De la jocuri competitive la articole de fitness, food rating and much more than that.</h3>
     </div>
     <div id="carousel">
       <div class="prevLeftSecond">
