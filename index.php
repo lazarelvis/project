@@ -48,13 +48,13 @@
     </div>
     <div id="carousel">
       <div class="prevLeftSecond">
-        <a href="./features.html"><img src="./img/5.png"></a>
+        <a href="./features.html"><img src="./img/5.png" alt="ratting mande"></a>
       </div>
       <div class="prev">
-        <a href="./features.html"><img src="./img/2222.png"></a>
+        <a href="./features.html"><img src="./img/2222.png" alt="fitness mande"></a>
       </div>
       <div class="selected">
-        <a href="https://gaming.mande.ro/"  alt="gaming mande"><img src="./img/4.png"></a>
+        <a href="https://gaming.mande.ro/"><img src="./img/4.png"  alt="gaming mande"></a>
       </div>
       <div class="next">
         <a href="https://blog.mande.ro/"><img src="./img/blog mande.png" alt="blog mande"></a>
