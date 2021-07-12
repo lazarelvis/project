@@ -54,13 +54,13 @@
         <a href="./features.html"><img src="./img/2222.png"></a>
       </div>
       <div class="selected">
-        <a href="./features.html"><img src="./img/4.png"></a>
+        <a href="https://gaming.mande.ro/"  alt="gaming mande"><img src="./img/4.png"></a>
       </div>
       <div class="next">
-        <a href="./features.html"><img src="./img/222.png"></a>
+        <a href="https://blog.mande.ro/"><img src="./img/blog mande.png" alt="blog mande"></a>
       </div>
       <div class="nextRightSecond">
-        <a href="./features.html"><img src="./img/shopping.png"></a>
+        <a href="https://shop.mande.ro/"><img src="./img/shop mande.png" alt="shop mande"></a>
       </div>
     </div>
     
